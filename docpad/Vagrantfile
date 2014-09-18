@@ -136,7 +136,7 @@ sudo ln -s `which nodejs` /usr/bin/node
 sudo npm install -g npm
 sudo npm install docpad
 cd /home/vagrant/site/
-nodejs install docpad
+npm install -g docpad
 
 EOF
   config.vm.provision "shell",
